@@ -41,6 +41,23 @@ def add_hexo_title(path):
         file.writelines(lines)
 
 
+# 更新md文件中的图片地址
+def update_img_path(path):
+    new_lines = []
+    with open(path, 'r') as file:
+        lines = file.readlines()
+        if not [v for v in lines if '<img src=' in v]:
+            return
+        for line in lines:
+            if '<img src=' in line:
+                new_lines.append('![](' + line[12:-4] + ')')
+            else:
+                new_lines.append(line)
+    print('文件有待更新图片地址，已更新', path)
+    with open(path, 'w') as file:
+        file.writelines(new_lines)
+
+
 # 移除md文件中不存在的图片
 def remove_more_img(path):
     with open(path, 'r') as file:

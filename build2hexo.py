@@ -2,7 +2,7 @@ import os
 import shutil
 
 # 复制md文件
-from stripmd import remove_more_empty_line, remove_more_img, add_hexo_title
+from stripmd import remove_more_empty_line, remove_more_img, add_hexo_title, update_img_path
 
 
 def build_hexo_md(path, dest_dir):
@@ -61,6 +61,7 @@ if __name__ == '__main__':
                 f = os.path.join(root, v)
                 add_hexo_title(f)
                 remove_more_empty_line(f)
+                # update_img_path(f)
                 remove_more_img(f)
                 build_hexo_md(f, dest)
                 build_hexo_image(f, dest)
