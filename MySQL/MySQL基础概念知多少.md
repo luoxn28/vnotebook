@@ -1,17 +1,8 @@
 ---
 layout: blog
 title: MySQL基础概念知多少
-date: 2020-04-06 12:38:12
-categories: [MySQL]
-tags: []
-toc: true
-comments: true
----
-
----
-title: MySQL基础概念知多少
 date: 2019-05-19 13:08:38
-categories: [mysql]
+categories: [MySQL]
 tags: []
 toc: true
 comments: true
