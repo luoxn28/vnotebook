@@ -28,3 +28,4 @@ A_计划/
 .DS_Store
 *.md.vswp
 .idea/
+__pycache__/*
