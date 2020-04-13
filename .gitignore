@@ -28,4 +28,5 @@ A_计划/
 .DS_Store
 *.md.vswp
 .idea/
-__pycache__/*
+__pycache__/
+*.pyc
