@@ -31,7 +31,7 @@ bind函数把一个本地协议地址赋予一个套接字，至于协议地址�
 int bind(int sockfd, const struct sockaddr *myaddr, socklen_t addrlen); // 返回：成功为0，出错-1
 ```
 
-> bind函数绑定特定的IP地址必须属于其所在主机的网络接口之一，服务器在启动时绑定它们众所周知的端口，如果一个TCP客户端或服务端未曾调用bind绑定一个端口，当调用connect或listen时，内核就要为响应的套接字选择一个临时端口。让内核选择临时端口对于TCP客户端来说是正常的额，然后对于TCP服务端来说确实罕见的，因为服务端通过他们众所周知的端口被大家认识的。
+> bind函数绑定特定的IP地址必须属于其所在主机的网络接口之一，服务器在启动时绑定它们众所周知的端口，如果一个TCP客户端或服务端未曾调用bind绑定一个端口，当调用connect或listen时，内核就要为响应的套接字选择一个临时端口。让内核选择临时端口对于TCP客户端来说是正常的，但是对于TCP服务端来说确实罕见的，因为服务端通过他们众所周知的端口被大家认识的。
 
 socket创建一个套接字时，它被假设为一个主动套接字，也就是说，它是一个将调用connect发起连接的一个客户套接字。listen函数把一个未连接的套接字转换为一个被动套接字，指示内核应接受指向该套接字的连接请求，调用listen函数将导致套接字从CLOSEE状态转换到LISTEN状态。
 
@@ -56,4 +56,8 @@ int accept(int sockfd, struct sockaddr *cliaddr, socklen_t *addrlen); //  返回
 ```c
 int close(int sockfd); // 若成功返回0，出错-1
 ```
+
+close时的详细的4次挥手流程如下：
+
+![image-20200418092345166](../../%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux/_image/%E8%B0%88%E4%B8%80%E8%B0%88TCP%E7%9A%844%E6%AC%A1%E6%8C%A5%E6%89%8B/image-20200418092345166.png)
 
