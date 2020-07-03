@@ -2,8 +2,8 @@
 layout: blog
 title: Linux管道
 date: 2020-04-19 14:16:15
-categories: [Linux]
-tags: []
+categories: [操作系统]
+tags: [Linux]
 toc: true
 comments: true
 ---

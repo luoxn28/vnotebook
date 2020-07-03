@@ -2,8 +2,8 @@
 layout: blog
 title: 从sockert api看网络通信流程
 date: 2020-04-18 20:19:54
-categories: [Linux]
-tags: []
+categories: [操作系统]
+tags: [Linux,计算机网络]
 toc: true
 comments: true
 ---

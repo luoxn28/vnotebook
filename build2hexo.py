@@ -51,7 +51,7 @@ def build_hexo_image(path, dest_dir):
 
 if __name__ == '__main__':
     dest = '/Users/luoxiangnan/luoxn28/source/_posts'
-    base_dirs = ['操作系统', '框架研究', 'Java', 'MySQL', '分布式系统', '随笔']
+    base_dirs = ['操作系统', '框架研究', 'Java', '数据库', '分布式', '随笔']
     for base in base_dirs:
         for root, dirs, files in os.walk(base):
             files = [v for v in files if v.endswith('.md')]

@@ -159,5 +159,3 @@ public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction
 - [别再问我ConcurrentHashMap了](https://mp.weixin.qq.com/s?__biz=MzIwNTI2ODY5OA==&mid=2649938471&idx=1&sn=2964df2adc4feaf87c11b4915b9a018e&chksm=8f350992b842808477d2bfde6d58354f86c28b7a70d1c5395e550ed6ca683dadcbb7a9637775&token=512328060&lang=zh_CN#rd)
 - [你的ThreadLocal线程安全么](https://mp.weixin.qq.com/s?__biz=MzIwNTI2ODY5OA==&mid=2649938424&idx=1&sn=e4b7d4d04b02794698f8b4d46a1d89d1&chksm=8f350a4db842835b7df97d6a42bab0cc25df1fef824be0427710643836bd47cd4fd91b5e562a&token=512328060&lang=zh_CN#rd)
 
-![更多文章可扫描二维码](https://luoxn28.github.io/about/index/topcoder.png)
-

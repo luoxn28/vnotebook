@@ -2,8 +2,8 @@
 layout: blog
 title: 深入理解TCP的3次握手
 date: 2020-04-17 22:27:53
-categories: [Linux]
-tags: []
+categories: [操作系统]
+tags: [计算机网络]
 toc: true
 comments: true
 ---

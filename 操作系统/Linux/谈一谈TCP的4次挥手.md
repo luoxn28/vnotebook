@@ -2,8 +2,8 @@
 layout: blog
 title: 谈一谈TCP的4次挥手
 date: 2020-04-18 09:19:14
-categories: [Linux]
-tags: []
+categories: [操作系统]
+tags: [计算机网络]
 toc: true
 comments: true
 ---

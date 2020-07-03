@@ -2,8 +2,8 @@
 layout: blog
 title: Linux mmap
 date: 2020-04-19 14:41:37
-categories: [Linux]
-tags: []
+categories: [操作系统]
+tags: [Linux]
 toc: true
 comments: true
 ---
@@ -42,8 +42,7 @@ int munmap(void *addr, size_t length)
 说了这么多mmap的东东，那么如果是mmap文件映射，什么时候进行回写呢？
 
 - 内存不足
-  进程 
-- crash
+- 进程crash
 - 调用 msync 或者 munmap
 - 不设置 MAP_NOSYNC 情况下 30s-60s(仅限FreeBSD)
 
