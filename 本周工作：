@@ -1,0 +1,37 @@
+本周工作：
+1. 信息采集信息支持录入线索。
+  Done：完成需求评审，doc:https://doc.qima-inc.com/pages/viewpage.action?pageId=265818293。
+  Doing: 开发中，目前后端B端开发完成，C端开发70%。前端B端开发完成90%。
+  Todo: 下周一开始联调，周二提测到我这边，我来负责整体的测试计划。
+2. 电商稳定性：应用错误日志监控【已接入电商下所有应用】。
+  Done：电商下各业务组应用均已接入，完成之前设定目标：
+    配置地址：http://apollo-portal.prod.qima-inc.com/config.html#/appid=ebiz-sentinel&env=QA&cluster=default。
+    配置文档：https://doc.qima-inc.com/pages/viewpage.action?pageId=272205640。
+    错误日志报警数据接入qa_tools数据中，每周会创建最近7天内的报警topn数据的jira并关联给跟进人。
+  Doing: 后续每周统计错误日志收敛情况并同步。
+  Todo: 无。
+3. 完善电商单测工具。
+  Done: 使用文档：https://doc.qima-inc.com/pages/viewpage.action?pageId=283785459，该工具有助于提高代码开发质量。
+  Doing: 在稳定性会议上简单同步了下。
+  Todo: 开始往电商其他部门推广使用。
+4. 调用链分析工具开发。
+  Done: 技术方案文档：https://doc.qima-inc.com/pages/viewpage.action?pageId=282288933。
+  Doing: 开发中，开发进度20%。
+  Todo: 继续开发，下周尽量基本完成开发，下下周开始自测并内部推广使用。
+
+【其他】
+1. 日常处理：修复专栏详情展示已删除直播问题（https://xiaolv.qima-inc.com/#/demand/search?show=true&ids=54631）。
+2. 熟悉群打卡业务流程，群打卡打卡流程看完了。
+3. 发送打赏消息失败日志优化，调整了日志等级。
+4. 商品&交易一周错误日志梳理。
+
+【下周计划】
+1. 信息采集信息支持录入线索开发。
+2. 调用链分析工具开发。
+3. 日常处理：群打卡业务流程日志优化（https://xiaolv.qima-inc.com/#/demand/search?show=true&ids=54982）。
+
+【最后】
+1. 要接群打卡和家校圈的业务了，后续着重会看这些相关的业务流程。
+2. 后续关于这两块业务，在周会上做一下业务分享。
+
+@Hub @剑明 @夏体顺 @小诚
